@@ -1,5 +1,7 @@
 # ESP32 Smart Bin
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 PlatformIO firmware for a proximity-operated bin lid. A front-facing VL53L0X
 detects a hand, an HC-SR04 estimates how full the bin is, and an ESP32 drives a
 servo, status LED, and physical button. The device also offers a local HTTP API
@@ -8,6 +10,8 @@ and OTA firmware updates. Local lid control continues if Wi-Fi is unavailable.
 This repository contains **only the ESP32 firmware**. Any Raspberry Pi, Bob,
 OpenClaw, or Telegram integration is a separate project and is not required to
 build or operate the bin.
+
+This firmware is released under the [MIT License](LICENSE).
 
 ## Hardware and wiring
 
